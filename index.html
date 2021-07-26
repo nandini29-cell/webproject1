@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagarsha fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: black;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        background: url('imag1.jpg');
+        background-size: 1500px 1200px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        /* border:2px solid red;*/
+        position: absolute;
+        top: 30px;
+        box-sizing: border-box;
+    }
+
+    .left img {
+        width: 136px;
+        margin: 0px auto;
+        padding: 4px 24px;
+    }
+
+    .middle {
+
+        display: block;
+        width: 60%;
+        margin: 0px auto;
+        position: relative;
+        top: 0px;
+
+    }
+
+    .right {
+        /* border:2px solid yellow; */
+
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        right: 34px;
+    }
+
+    .navbar {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 23px;
+        background-color: black;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 0px;
+        padding: 0px 2px;
+        font-size: 24px;
+    }
+
+    .navbar li a {
+        margin: 7px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .head {
+        padding: 0px 14px;
+        color: red;
+        font-size: 23px;
+    }
+
+    .btn {
+        background-color: black;
+        margin: 0px 4px;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid black;
+        border-radius: 23px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+
+    }
+
+    .container {
+        margin: 230px 0px;
+        padding: 30px;
+        width: 33%;
+       /* border: 2px solid red;
+        border-radius: 28px;*/
+    
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        margin: 3px auto;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left mai logo lagavunga -->
+        <div class="left">
+            <img src="imag3.jpg" alt="">
+            <div class="head">
+                Sagarsha Fitness
+            </div>
+        </div>
+
+        <!-- middle mai navigation bar lagavunga -->
+        <div class="middle">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculation</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+
+        </div>
+
+        <!-- right mai search button lagavunga -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email now</button>
+        </div>
+
+        <div class="container">
+            <h1>Join the best gym of Delhi now</h1>
+            <form action="no action.php">
+                <div class="formgroup">
+                    <input type="text" name="" placeholder="enter your name">
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="" placeholder="enter your age">
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="" placeholder="enter your gender">
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="" placeholder="enter your locality">
+                </div>
+                <button class="btn">submit now</button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
